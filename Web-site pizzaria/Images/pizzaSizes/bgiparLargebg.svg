@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>griparLargegr</title>
+    <g id="griparLargegr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-15" transform="translate(6.000000, 6.000000)" stroke="#0778AF" stroke-width="2">
+            <path d="M49.6396,26.318 C49.6396,40.028 38.5306,51.137 24.8206,51.137 C21.2306,51.137 17.8096,50.378 14.7306,48.998 L24.8296,26.318 L47.9906,17.427 C49.0596,20.188 49.6396,23.188 49.6396,26.318 Z" id="Stroke-1"></path>
+            <path d="M1.6504,35.2175 C4.0004,41.3675 8.7404,46.3275 14.7304,48.9975" id="Stroke-3"></path>
+            <line x1="15.9277" y1="3.151" x2="33.7167" y2="49.494" id="Stroke-5"></line>
+            <line x1="2.1484" y1="16.2272" x2="47.4964" y2="36.4172" id="Stroke-7"></line>
+            <path d="M34.9199,3.6579 L24.8299,26.3179 L1.6499,35.2179 C0.5799,32.4579 -0.0001,29.4579 -0.0001,26.3179 C-0.0001,12.6179 11.1099,1.5079 24.8199,1.5079 C28.4199,1.5079 31.8399,2.2779 34.9199,3.6579 Z" id="Stroke-9"></path>
+            <line x1="34.9199" y1="3.6579" x2="34.9199" y2="3.6479" id="Stroke-11"></line>
+            <path d="M39.9736,0.319 L31.2066,20.007 L51.3296,12.284 C49.2876,6.949 45.1776,2.631 39.9736,0.319 Z" id="Stroke-13"></path>
+        </g>
+    </g>
+</svg>

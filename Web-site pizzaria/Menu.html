@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for pizza delivery">
+    <meta name="keywords" content="Pizza"> 
+    <meta name="autor" content="Todor Tsvetanov">
+    <title>"Писба" меню</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- style -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Rowdies:wght@700&display=swap" rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@500&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menu.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    
+</head>
+
+
+<body>
+    
+    <header>
+        <a href="Home.html" class="logo"><img src="Images/pisbaG60.png" alt="logo" class="logop"
+             width="120" height="120"></a>
+        
+        <div class="navigation">
+
+            <ul class="navbar">
+                <li><a href="Home.html">Начало</a></li>
+                <li><a href="Menu.html">Меню</a></li>
+                <li><a href="About us.html">За нас</a></li>
+                <li><a href="Blog.html">Блог</a></li>
+                <li><a href="Contacts.html">Контакти</a></li>
+                </ul>
+        </div>
+
+        <div class="main">
+            <!-- <i class="ri-user-fill"></i>
+            <a href="#" class="user"></i>Log In</a>
+            <a href="#">Register</a> -->
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+        <script src="script.js"></script>
+    </header>
+
+    <div class="main-content">
+
+
+    <section>
+
+        <div class="filter-container">
+            
+            <div class="img-container" id="pizzas-button"><img src="images/menucategories/icons8-pizza-64.png" alt="Pizza-icon" class="Pizza-icon" ></div>
+            <div class="img-container" id="salads-button"><img src="images/menucategories/icons8-salad-60.png" alt="Salad-icon" class="Salad-icon" ></div>
+            <div class="img-container" id="sauces-button"><img src="Images/menucategories/icons8-mustard-64.png" alt="Sauses-icon" class="Sauses-icon" ></div>
+            <div class="img-container" id="desserts-button"><img src="Images/menucategories/icons8-cake-64.png" alt="Desserts-icon" class="Desserts-icon" ></div>
+            <div class="img-container" id="drinks-button"><img src="images/menucategories/icons8-energy-sport-drink-64.png" alt="Drinks-icon" class="Drinks-icon" ></div>
+         </div>
+         <div id="pizzas" style="display: block;display: none;" class="idpizzas">
+            <div class="menuItems">
+                <!-- pizza1 -->
+            <div class="item1-container">
+                <p class="item-name">Американ Хот</p>
+                <p>_____________________________</p>
+                <img src="images/pizzaImages/americanHot.png" class="itemImage" alt="americanHot" width="250px" height="200px">
+                <h3>доматен сос, моцарела, пеперони, халапеньо-люти чушки, лук</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg"  alt="spicy" class="type-icon" width="50px" height="50px">
+            <div class="order-button">Поръчай</div>
+            </div>
+                <!-- pizza2 -->
+            <div class="item1-container">
+                <p class="item-name">Бургер пица</p>
+                <p>_____________________________</p>
+                <img src="images/pizzaImages/burgerPizza.png" class="itemImage" alt="burgerPizza" width="250px" height="200px">
+                <h3>бургер сос, кисели краставички, моцарела, чедар, лук, домати, пикантно телешко</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon"  width="50px" height="50px">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- pizza3 -->
+            <div class="item1-container">
+                <p class="item-name">Екстраваганза</p>
+                <p>_____________________________</p>
+                <img src="images/pizzaImages/extravagansa.png"class="itemImage" alt="extravagansa" width="250px" height="200px">
+                <h3>Моцарела, доматен сос, шунка, пеперони, лук, чушки, маслини, гъби</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- pizza4 -->
+            <div class="item1-container">
+                <p class="item-name">Маргарита Екстра</p>
+                <p>_____________________________</p>
+                <img src="images/pizzaImages/margarittaExtra.png" class="itemImage" alt="margarittaExtra" width="250px" height="200px">
+                <h3>доматен сос, моцарела, пеперони, халапеньо-люти чушки, лук</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon"width="50px" height="50px">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- pizza5 -->
+            <div class="item1-container">
+                <p class="item-name">Писба Специална</p>
+                <p>_____________________________</p>
+                <img src="images/pizzaImages/PisbaSpecial.png" class="itemImage" alt="americanHot" width="250px" height="200px">
+                <h3>доматен сос, моцарела, шунка, бекон, зелени чушки, лук, гъби</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+       
+       <!-- pizza6 -->
+       <div class="item1-container">
+        <p class="item-name">Хавай</p>
+        <p>_____________________________</p>
+        <img src="images/pizzaImages/hawaii.png" class="itemImage" alt="hawaii" width="250px" height="200px">
+        <h3>доматен сос, моцарела, шунка, ананас, чубрица, любов</h3>
+        <p>_____________________________</p>
+        <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+    <div class="order-button">Поръчай</div>
+ </div>
+
+<!-- pizza7 -->
+<div class="item1-container">
+    <p class="item-name">Бърбън</p>
+    <p>_____________________________</p>
+    <img src="images/pizzaImages/Burbun.png" class="itemImage" alt="americanHot" width="250px" height="200px">
+    <h3>доматен сос, моцарела, пилешко филе, бекон, лук, бърбън сос (не съдържа алкохол)</h3>
+    <p>_____________________________</p>
+    <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+<div class="order-button">Поръчай</div>
+</div>
+
+<!-- pizza8 -->
+<div class="item1-container">
+    <p class="item-name">Италианска</p>
+    <p>_____________________________</p>
+    <img src="images/pizzaImages/italian.png" class="itemImage" alt="americanHot" width="250px" height="200px">
+    <h3>доматен сос, моцарела, песто, Грана Падано, пресни домати, босилек</h3>
+    <p>_____________________________</p>
+    <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon" width="50px" height="50px" >
+<div class="order-button">Поръчай</div>
+</div>
+<!-- pizza9 -->
+<div class="item1-container">
+    <p class="item-name">Ню Йорк</p>
+    <p>_____________________________</p>
+    <img src="images/pizzaImages/newYork.png" class="itemImage" alt="americanHot" width="250px" height="200px">
+    <h3>доматен сос, моцарела, бекон, чедар, допълнително чедар, пресни гъби</h3>
+    <p>_____________________________</p>
+    <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+<div class="order-button">Поръчай</div>
+</div>
+<!-- pizza10 -->
+<div class="item1-container">
+    <p class="item-name">Смоуки Бейкън</p>
+    <p>_____________________________</p>
+    <img src="images/pizzaImages/smokeyBacon.png" class="itemImage" alt="americanHot" width="250px" height="200px">
+    <h3>сметана, моцарела, бекон, пушено топено сирене, маслини</h3>
+    <p>_____________________________</p>
+    <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+<div class="order-button">Поръчай</div>
+</div>
+</div>
+         </div>
+
+        <div id="salads" style="display: none;">
+            <div class="menuItems">
+                <!-- salad1 -->
+            <div class="item1-container">
+                <p class="item-name">Салата Цезар + сос</p>
+                <p>_____________________________</p>
+                <img src="images/saladsImages/caecare+sauce.png" class="itemImage" alt="caecareSalad+sause" width="250px" height="200px">
+                <h3>Айсберг, бекон, царевица, крутони, Грана Падано, цезар сос</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg"  alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+            </div>
+                <!-- salad2 -->
+            <div class="item1-container">
+                <p class="item-name">Салата Рока + сос</p>
+                <p>_____________________________</p>
+                <img src="images/saladsImages/rocka+sause.png" class="itemImage" alt="rockaSalad+sause" width="250px" height="200px">
+                <h3>Айсберг, рукола, пресни домати, Грана Падано, зехтин, балсамов дресинг</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon"  width="50px" height="50px">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- salad3 -->
+            <div class="item1-container">
+                <p class="item-name">Салата Цезар с пиле + сос</p>
+                <p>_____________________________</p>
+                <img src="images/saladsImages/caesareChiken+sause.png"class="itemImage" alt="caesareChiken+sause" width="250px" height="200px">
+                <h3>Айсберг, пиле, царевица, крутони, Грана Падано, цезар сос</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- salad4 -->
+            <div class="item1-container">
+                <p class="item-name">Салата с риба Тон</p>
+                <p>_____________________________</p>
+                <img src="images/saladsImages/tunnaSalad.png" class="itemImage" alt="tunnaSalad" width="250px" height="200px">
+                <h3>айсберг, риба тон, царевица, маслини, лимон и зехтин</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon"width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- salad5 -->
+            <div class="item1-container">
+                <p class="item-name">Салата Триколе</p>
+                <p>_____________________________</p>
+                <img src="images/saladsImages/trokole.png" class="itemImage" alt="trockole" width="250px" height="200px">
+                <h3>Домати, сирене фета, песто, зехтин, чубрица и маслини</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon" width="50px" height="50px">
+            <div class="order-button">Поръчай</div>
+         </div>
+       </div>
+       </div>
+        </div>
+        <div id="sauces" style="display: none;">
+            <div class="menuItems">
+                <!-- sause1 -->
+            <div class="item1-container">
+                <p class="item-name">Чили сос (лют)</p>
+                <p>_____________________________</p>
+                <img src="images/sausesImages/redHotSause.png" class="itemImage" alt="redHotSause" width="250px" height="200px">
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg"  alt="spicy" class="type-icon" width="50px" height="50px">
+            <div class="order-button">Поръчай</div>
+            </div>
+                <!-- sause2 -->
+            <div class="item1-container">
+                <p class="item-name">Сладко чили</p>
+                <p>_____________________________</p>
+                <img src="images/sausesImages/chilliSause.png" class="itemImage" alt="chilliSause" width="250px" height="200px">
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon"  width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- sause3 -->
+            <div class="item1-container">
+                <p class="item-name">Чеснов сос</p>
+                <p>_____________________________</p>
+                <img src="images/sausesImages/garlicSause.png"class="itemImage" alt="garlicSause" width="250px" height="200px">
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- sause4 -->
+            <div class="item1-container">
+                <p class="item-name">Доматен сос</p>
+                <p>_____________________________</p>
+                <img src="images/sausesImages/tomatoSause.png" class="itemImage" alt="tomatoSause" width="250px" height="200px">
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon"width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- sause5 -->
+            <div class="item1-container">
+                <p class="item-name">Медена горчица</p>
+                <p>_____________________________</p>
+                <img src="images/sausesImages/honeyMustardSause.png" class="itemImage" alt="trockole" width="250px" height="200px">
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+       </div>
+       </div>
+        </div>
+        <div id="desserts" style="display: none;">
+            <div class="menuItems">
+                <!-- desert1 -->
+            <div class="item1-container">
+                <p class="item-name">Брауни хапки</p>
+                <p>_____________________________</p>
+                <img src="images/desertsImages/brauneyNuggets.png" class="itemImage" alt="brauneyNuggets" width="250px" height="200px" style="margin-left:5%; width: 90%;">
+                <h3>Шоколадово брауни с парченца бял шоколад. Истинска наслада за сетивата!</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg"  alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+            </div>
+                <!-- desert2 -->
+            <div class="item1-container">
+                <p class="item-name">Шоколадов пай</p>
+                <p>_____________________________</p>
+                <img src="images/desertsImages/chockoPie.png" class="itemImage" alt="chockoPie" width="250px" height="200px" style="margin-left:5%; width: 90%;">
+                <h3>Пухкав десерт с пълнеж NUTELLA, прясно изпечен на фурна и поръсен с пудра захар</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon"  width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button" >Поръчай</div>
+         </div>
+            <!-- desert3 -->
+            <div class="item1-container">
+                <p class="item-name">Шоколадов сладолед</p>
+                <p>_____________________________</p>
+                <img src="images/desertsImages/nirvanaChokoAndChockoChips150ml.png"class="itemImage" alt="iceCreamChockoAndChockoChips" width="250px" height="185px">
+                <h3>Шоколадов сладолед с шоколадови парченца</h3>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- desert4 -->
+            <div class="item1-container">
+                <p class="item-name">Ванилия и бисквитки</p>
+                <p>_____________________________</p>
+                <img src="images/desertsImages/nirvanaCookiesAndCream150ml.png" class="itemImage" alt="iceCreamCookiesAndCream" width="250px" height="200px">
+                <h3>Сладолед с аромат на ванилия и парченца какаови бисквитки</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon"width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+            <!-- desert5 -->
+            <div class="item1-container">
+                <p class="item-name">Карамел и ядки</p>
+                <p>_____________________________</p>
+                <img src="images/desertsImages/nirvanaParalinesAndCream150ml.png" class="itemImage" alt="iceCreamCaramelAndNuts" width="250px" height="200px">
+                <h3>Сладолед с карамелов сироп и карамелизирани ядки</h3>
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+         </div>
+       </div>
+       </div>
+        </div>
+        <div id="drinks" style="display: none;">
+            <div class="menuItems">
+                <!-- drink1 -->
+            <div class="item1-container">
+                <p class="item-name">Кока-кола 500ml</p>
+                <p>_____________________________</p>
+                <img src="images/drinksImages/coca-cola.png" class="itemImage" alt="coca-cola" width="250px" height="200px" style="margin-left:5%; width: 90%;">
+                <img src="images/type-icons/spicy.svg"  alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg"  alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button">Поръчай</div>
+            </div>
+                <!-- drink2 -->
+            <div class="item1-container">
+                <p class="item-name">Кока-кола Zero 500ml</p>
+                <p>_____________________________</p>
+                <img src="images/drinksImages/coca-colaZero.png" class="itemImage" alt="coca-colaZero" width="250px" height="200px" style="margin-left:5%; width: 90%;">
+                <img src="images/type-icons/spicy.svg"  alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon"  width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button" >Поръчай</div>
+         </div>
+            <!-- drink3 -->
+            <div class="item1-container">
+                <p id="scroll-text"  class="item-name">Студен чай Fuzztea 500ml</p>
+                <p>_____________________________</p>
+                <img src="images/drinksImages/fuzztea.png"class="itemImage" alt="fuzztea" width="250px" height="225px">
+                <p>_____________________________</p>
+                <img src="images/type-icons/spicy.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button" style="margin-top: 5px;">Поръчай</div>
+         </div>
+            <!-- drink4 -->
+            <div class="item1-container">
+                <p class="item-name">Портокалов сок 500ml
+
+                </p>
+                <p>_____________________________</p>
+                <img src="images/drinksImages/cappyPulpy.png" class="itemImage" alt="cappyPulpy" width="250px" height="225px">
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="vegetarian" class="type-icon"width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button" style="margin-top: 5px;">Поръчай</div>
+         </div>
+            <!-- drink5 -->
+            <div class="item1-container">
+                <p class="item-name">Фанта с портокал 500ml</p>
+                <p>_____________________________</p>
+                <img src="images/drinksImages/fantaOrange.png" class="itemImage" alt="fantaOrange" width="250px" height="225px">
+                <p>_____________________________</p>
+                <img src="images/type-icons/vegetarian.svg" alt="spicy" class="type-icon" width="50px" height="50px" style="opacity: 0;">
+            <div class="order-button" style="margin-top: 5px;">Поръчай</div>
+         </div>
+       </div>
+       </div>
+        </div>
+
+        
+        <script>
+            const buttons = [
+                {
+                    button: "pizzas-button",
+                    div: "pizzas"
+                },
+                {
+                    button: "salads-button",
+                    div: "salads"
+                },
+                {
+                    button: "sauces-button",
+                    div: "sauces"
+                },
+                {
+                    button: "desserts-button",
+                    div: "desserts"
+                },
+                {
+                    button: "drinks-button",
+                    div: "drinks"
+                },
+            ];
+
+            let prev_el = null;
+            let prev_butt = null;
+            buttons.forEach(b => {
+                let el = document.getElementById(b.button);
+                el.addEventListener("click", () => {
+                    let div = document.getElementById(b.div);
+                    div.style.display = "block";
+                    el.style.backgroundColor = "rgba(0.8, 0.5, 0.5, 0.4)"
+                    if (prev_el && prev_el.id != div.id) {
+                        prev_el.style.display = "none";
+                        prev_butt.style.backgroundColor = "transparent"
+                    }
+                    prev_el = div;
+                    prev_butt = el;
+                });
+            });
+            document.getElementById(buttons[0].button).click();
+        </script>
+      </section>
+      
+      </div>
+      <div class="footerNav">
+        <ul>
+             <a href="Home.html">Начало</a> <br>
+             <a href="Menu.html">Меню</a><br>
+             <a href="Aboutus.html">За нас</a><br>
+             <a href="Blog.html">Блог</a><br>
+             <a href="Contacts.html">Контакти</a><br>
+        </ul>
+            <div class="footer-Social-media">
+                <a href="https://www.facebook.com/todor.cvetanov.96/">
+                <img src="images/socialMedia/facebook-3-xl.png" alt="facebook-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/todor-cvetanov-ba62b81b1/">
+                <img src="images/socialMedia/instagram-icon.png" alt="instagram-icon">
+                </a>
+                <a href="https://www.instagram.com/todor.tsvetanov13/">
+                <img src="images/socialMedia/linkedin-3-xl.png" alt="linkedin-icon">
+                </a>
+            </div>
+            
+    </div>
+    <div class="foot"><p>Тодор Цветанов Цветанов. © 2023</p></div>
+    </div>
+
+  
+
+
+
+  
+  
+
+
+    <!-- navbar coloring    -->
+    <script src="script.js"></script>
+  
+  
+     
+
+</body>
+</html>
+
